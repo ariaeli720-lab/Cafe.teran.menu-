@@ -7,29 +7,34 @@
 <title>منوی کافه ترن | CAFE TERAN</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap');
-*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:#17100c;color:#f5ead7;font-family:Vazirmatn,Tahoma,sans-serif}
-body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.035;background-image:radial-gradient(#fff 1px,transparent 1px);background-size:8px 8px}
-.wrap{max-width:760px;margin:auto;padding:18px 14px 45px}
-header{position:relative;text-align:center;padding:28px 12px 22px;border:1px solid #5e4734;border-radius:26px;background:linear-gradient(145deg,#2b1c14,#1b120d);overflow:hidden;box-shadow:0 16px 45px #0008}
-header:after{content:"";position:absolute;left:50%;top:52%;width:310px;height:310px;transform:translate(-50%,-50%);background:url("cafe-teran-logo.png") center/contain no-repeat;opacity:.055;pointer-events:none}
-.brand-logo{width:92px;height:92px;object-fit:contain;position:relative;z-index:2;margin-bottom:2px;filter:drop-shadow(0 5px 12px #0008)} .logo{font:800 24px Georgia,serif;letter-spacing:3px;color:#d5ae69;position:relative;z-index:2}
-.title{font-size:30px;font-weight:800;margin:10px 0 4px;position:relative;z-index:2}
-.sub{color:#b9a58e;font-size:13px;position:relative;z-index:2}
-.search{position:sticky;top:8px;z-index:10;margin:14px 0;background:#21150feF;border:1px solid #634b37;border-radius:18px;padding:10px;backdrop-filter:blur(14px)}
-input{width:100%;border:0;outline:0;background:#302017;color:#fff;padding:13px 15px;border-radius:12px;font-family:inherit;font-size:14px}
-.cats{display:flex;gap:8px;overflow:auto;padding:3px 1px 12px;scrollbar-width:none}
-.cats::-webkit-scrollbar{display:none}
-.cat{white-space:nowrap;border:1px solid #5b4635;background:#25180f;color:#d9c4a6;border-radius:999px;padding:9px 14px;font-family:inherit;cursor:pointer}
-.cat.active{background:#c69a58;color:#21150f;border-color:#c69a58;font-weight:700}
-.section{margin:14px 0 24px;scroll-margin-top:105px}
-.section-head{display:flex;align-items:end;justify-content:space-between;margin:0 4px 10px}
-h2{margin:0;font-size:22px} .en{font:11px Georgia;color:#9b846a;letter-spacing:2px}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
-.card{min-height:72px;padding:13px 12px;border:1px solid #4b382a;border-radius:16px;background:linear-gradient(145deg,#2a1b13,#21150f);display:flex;align-items:center;justify-content:space-between;gap:8px;box-shadow:0 6px 18px #0003}
-.item{font-size:14px;font-weight:600;line-height:1.7} .price{white-space:nowrap;color:#1d130c;background:#d4aa69;padding:5px 8px;border-radius:9px;font-size:11px;font-weight:800}
-.no{display:none;text-align:center;color:#a99176;padding:25px}
-footer{text-align:center;color:#806b57;font-size:11px;padding-top:15px}
-@media(max-width:430px){.grid{grid-template-columns:1fr} .title{font-size:27px}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:#071612;color:#f5ead7;font-family:Vazirmatn,Tahoma,sans-serif}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.04;background-image:radial-gradient(#fff 1px,transparent 1px);background-size:9px 9px}
+.wrap{max-width:1180px;margin:auto;padding:18px 14px 45px}
+header{position:relative;text-align:center;padding:25px 15px 22px;border:1px solid #80633c;border-radius:24px;background:linear-gradient(145deg,#13251f,#0a1713);overflow:hidden;box-shadow:0 18px 55px #0008}
+header:after{content:"";position:absolute;left:50%;top:50%;width:320px;height:320px;transform:translate(-50%,-50%);background:url("cafe-teran-logo.png") center/contain no-repeat;opacity:.05;pointer-events:none}
+.brand-logo{width:82px;height:82px;object-fit:contain;position:relative;z-index:2;filter:drop-shadow(0 6px 14px #0008)}
+.logo{font:800 25px Georgia,serif;letter-spacing:3px;color:#e0b76c;position:relative;z-index:2}
+.title{font-size:30px;font-weight:800;margin:7px 0 4px;position:relative;z-index:2}
+.sub{color:#c8b397;font-size:13px;position:relative;z-index:2}
+.search{position:sticky;top:7px;z-index:20;margin:14px 0;background:#071612ee;border:1px solid #58705e;border-radius:17px;padding:9px;backdrop-filter:blur(14px)}
+input{width:100%;border:0;outline:0;background:#10241e;color:#fff;padding:13px 16px;border-radius:11px;font-family:inherit;font-size:14px}
+.cats{display:flex;gap:8px;overflow:auto;padding:2px 1px 13px;scrollbar-width:none}.cats::-webkit-scrollbar{display:none}
+.cat{white-space:nowrap;border:1px solid #476055;background:#0d201a;color:#d9c4a6;border-radius:999px;padding:9px 14px;font-family:inherit;cursor:pointer}
+.cat.active{background:#d5ab63;color:#21150f;border-color:#d5ab63;font-weight:800}
+.section{margin:15px 0 28px;scroll-margin-top:100px}
+.section-head{display:flex;align-items:end;justify-content:space-between;margin:0 4px 11px}
+h2{margin:0;font-size:23px}.en{font:11px Georgia;color:#b59663;letter-spacing:2px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+.card{min-height:112px;padding:0;border:1px solid #385047;border-radius:16px;background:#0d211b;display:flex;align-items:stretch;overflow:hidden;box-shadow:0 7px 22px #0004;cursor:pointer;transition:.18s}
+.card:active{transform:scale(.985)}
+.thumb{width:112px;min-width:112px;object-fit:cover;background:#14251f}
+.cardbody{padding:13px 13px 12px;display:flex;flex:1;align-items:center;justify-content:space-between;gap:9px;direction:rtl}
+.item{font-size:14px;font-weight:700;line-height:1.8}.price{white-space:nowrap;color:#20150b;background:#d6ad67;padding:6px 8px;border-radius:9px;font-size:11px;font-weight:800;text-align:center}.price small{font-size:9px}
+.no{display:none;text-align:center;color:#a99176;padding:28px}
+footer{text-align:center;color:#9d886e;font-size:11px;padding-top:18px}
+@media(max-width:650px){.grid{grid-template-columns:1fr}.thumb{width:120px;min-width:120px}.title{font-size:27px}}
+@media(min-width:900px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 </style>
 </head>
 <body>
@@ -42,6 +47,8 @@ footer{text-align:center;color:#806b57;font-size:11px;padding-top:15px}
 </div>
 <script>
 const data=[{"name": "صبحانه", "en": "BREAKFAST", "items": [{"name": "املت", "price": "300,000"}, {"name": "پنیر گردو", "price": "250,000"}, {"name": "نیمرو", "price": "250,000"}, {"name": "سوسیس تخم مرغ", "price": "350,000"}]}, {"name": "چای", "en": "TEA", "items": [{"name": "چای سیاه", "price": "—"}, {"name": "چای سبز", "price": "250,000"}, {"name": "چای دارچین", "price": "250,000"}, {"name": "چای هل و دارچین", "price": "280,000"}, {"name": "چای زعفران", "price": "310,000"}, {"name": "چای زنجبیل", "price": "280,000"}, {"name": "چای ماسالا", "price": "250,000"}, {"name": "چای لیمو عسل", "price": "280,000"}, {"name": "چای ترش", "price": "280,000"}]}, {"name": "قهوه", "en": "COFFEE", "items": [{"name": "اسپرسو", "price": "250,000"}, {"name": "اسپرسو اسپشیال", "price": "300,000"}, {"name": "آمریکانو", "price": "250,000"}, {"name": "کاپوچینو", "price": "280,000"}, {"name": "لاته", "price": "280,000"}, {"name": "لاته فندق", "price": "300,000"}, {"name": "کارامل ماکیاتو", "price": "300,000"}, {"name": "هات چاکلت", "price": "300,000"}, {"name": "هات چاکلت فندق", "price": "300,000"}, {"name": "هات چاکلت نوتلا", "price": "350,000"}, {"name": "دارک چاکلت", "price": "350,000"}, {"name": "قهوه دمی اسپشیال", "price": "500,000"}, {"name": "رومانو", "price": "250,000"}, {"name": "وایت چاکلت", "price": "300,000"}]}, {"name": "شیک ها", "en": "MILKSHAKES", "items": [{"name": "نوتلا", "price": "400,000"}, {"name": "بادام زمینی", "price": "400,000"}, {"name": "شکلات", "price": "350,000"}, {"name": "وانیل", "price": "350,000"}, {"name": "موز شکلات", "price": "400,000"}, {"name": "موز توت فرنگی", "price": "400,000"}, {"name": "موز نوتلا", "price": "450,000"}, {"name": "توت فرنگی نوتلا", "price": "450,000"}, {"name": "بستی", "price": "—"}, {"name": "نسکافه", "price": "400,000"}, {"name": "کیت کت", "price": "500,000"}, {"name": "دارک", "price": "400,000"}, {"name": "انیه", "price": "400,000"}, {"name": "طالبی", "price": "400,000"}]}, {"name": "بار سرد", "en": "COLD BAR", "items": [{"name": "آیس لاته", "price": "300,000"}, {"name": "آیس موکا", "price": "300,000"}, {"name": "آیس آمریکانو", "price": "250,000"}, {"name": "آیس کارامل ماکیاتو", "price": "280,000"}, {"name": "ماچا", "price": "400,000"}]}, {"name": "ماکتیل ها", "en": "MOCKTAILS", "items": [{"name": "موهیتو", "price": "400,000"}, {"name": "لیموناد", "price": "400,000"}, {"name": "پیناکولادا", "price": "450,000"}, {"name": "رد کولر", "price": "450,000"}]}, {"name": "انواع گلاسه", "en": "GLASSES", "items": [{"name": "کافه گلاسه", "price": "450,000"}, {"name": "شکلات گلاسه", "price": "450,000"}, {"name": "انبه گلاسه", "price": "550,000"}, {"name": "موز گلاسه", "price": "400,000"}, {"name": "شاتوت گلاسه", "price": "450,000"}, {"name": "توت فرنگی گلاسه", "price": "450,000"}]}, {"name": "آیس پک", "en": "ICE PACKS", "items": [{"name": "نوتلا", "price": "450,000"}, {"name": "بادام زمینی", "price": "450,000"}, {"name": "وانیل", "price": "350,000"}, {"name": "توت فرنگی نوتلا", "price": "450,000"}, {"name": "موز نوتلا", "price": "450,000"}, {"name": "بستنی", "price": "—"}, {"name": "کیت کت", "price": "500,000"}, {"name": "انبه", "price": "400,000"}, {"name": "طالبی", "price": "400,000"}]}, {"name": "شیرموز", "en": "MILK & BANANA", "items": [{"name": "شیرموز", "price": "300,000"}, {"name": "شیرموز نارگیل", "price": "350,000"}, {"name": "شیرموز بادام زمینی", "price": "350,000"}, {"name": "شیرموز شکلاتی", "price": "350,000"}, {"name": "شیرموز توت فرنگی", "price": "350,000"}, {"name": "شیرموز و فندق", "price": "350,000"}, {"name": "شیرموز پسته", "price": "500,000"}]}, {"name": "مخلوط های طبیعی", "en": "FRESH JUICES", "items": [{"name": "آب پرتقال", "price": "400,000"}, {"name": "آب آناناس", "price": "600,000"}, {"name": "آب شاتوت", "price": "250,000"}, {"name": "آب هندوانه", "price": "250,000"}, {"name": "آب طالبی", "price": "250,000"}]}, {"name": "مخلوط های ترکیبی", "en": "MIXED FRUIT", "items": [{"name": "موز انبه", "price": "400,000"}, {"name": "موز توت فرنگی", "price": "400,000"}, {"name": "انبه شکلات", "price": "450,000"}, {"name": "انبه توت فرنگی", "price": "400,000"}, {"name": "انبه آناناس", "price": "650,000"}, {"name": "انار آلبلاو", "price": "550,000"}, {"name": "انار شاتوت", "price": "300,000"}, {"name": "انار زرشک", "price": "300,000"}, {"name": "آلبلاو ذغال اخته", "price": "350,000"}]}, {"name": "انواع کیک", "en": "CAKES", "items": [{"name": "سه شیر", "price": "300,000"}, {"name": "هویج گردو", "price": "300,000"}, {"name": "پسته", "price": "400,000"}, {"name": "سیب دارچین", "price": "300,000"}, {"name": "تیرامیسو", "price": "300,000"}, {"name": "شکلات", "price": "300,000"}]}, {"name": "مخلوط های ترش", "en": "SOUR MIXES", "items": [{"name": "آلبلاو", "price": "250,000"}, {"name": "انار", "price": "250,000"}, {"name": "زرشک", "price": "250,000"}, {"name": "ذغال اخته", "price": "250,000"}]}, {"name": "قلیان ها", "en": "HOOKAH", "items": [{"name": "دوسیب", "price": "400,000"}, {"name": "دو سیب آلبلاو", "price": "400,000"}, {"name": "لیمو نعناع", "price": "400,000"}, {"name": "آدامس دارچین", "price": "400,000"}, {"name": "انگور نعناع", "price": "400,000"}, {"name": "دژاوو", "price": "400,000"}, {"name": "شبهای مسکو", "price": "400,000"}, {"name": "لاو", "price": "400,000"}, {"name": "شیخ مانی", "price": "400,000"}, {"name": "شهریار", "price": "400,000"}, {"name": "هندوانه یخ", "price": "400,000"}, {"name": "سیب یخ", "price": "400,000"}, {"name": "تمشک بستنی", "price": "400,000"}, {"name": "لیدی کیلر", "price": "400,000"}, {"name": "آمازون", "price": "400,000"}, {"name": "شبهای ترن اسپشیال", "price": "450,000"}]}];
+const photoMap=["coffee","tea","latte","shake","cold","sour","dessert","sour","fruit","fruit","fruit","dessert","sour","hookah"];
+
 const cats=document.getElementById('cats'), main=document.getElementById('menu'), search=document.getElementById('search'), no=document.getElementById('no');
 data.forEach((s,i)=>{let b=document.createElement('button');b.className='cat'+(i===0?' active':'');b.textContent=s.name;b.onclick=()=>document.getElementById('s'+i).scrollIntoView({behavior:'smooth'});cats.appendChild(b)});
 function render(q=''){
@@ -50,7 +57,7 @@ function render(q=''){
    const items=s.items.filter(x=>(x.name+' '+s.name).includes(q.trim()));
    if(!items.length)return; found+=items.length;
    const sec=document.createElement('section');sec.className='section';sec.id='s'+i;
-   sec.innerHTML='<div class="section-head"><div><h2>'+s.name+'</h2><div class="en">'+s.en+'</div></div></div><div class="grid">'+items.map(x=>'<div class="card"><div class="item">'+x.name+'</div><div class="price">'+x.price+'<br><small>تومان</small></div></div>').join('')+'</div>';
+   sec.innerHTML='<div class="section-head"><div><h2>'+s.name+'</h2><div class="en">'+s.en+'</div></div></div><div class="grid">'+items.map(x=>'<div class="card"><img class="thumb" src="images/'+photoMap[i]+'.jpg" alt=""><div class="cardbody"><div class="item">'+x.name+'</div><div class="price">'+x.price+'<br><small>تومان</small></div></div></div>').join('')+'</div>';
    main.appendChild(sec);
  });
  no.style.display=found?'none':'block';
