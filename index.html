@@ -57,7 +57,7 @@ function render(q=''){
    const items=s.items.filter(x=>(x.name+' '+s.name).includes(q.trim()));
    if(!items.length)return; found+=items.length;
    const sec=document.createElement('section');sec.className='section';sec.id='s'+i;
-   sec.innerHTML='<div class="section-head"><div><h2>'+s.name+'</h2><div class="en">'+s.en+'</div></div></div><div class="grid">'+items.map(x=>'<div class="card"><img class="thumb" src="images/'+photoMap[i]+'.jpg" alt=""><div class="cardbody"><div class="item">'+x.name+'</div><div class="price">'+x.price+'<br><small>تومان</small></div></div></div>').join('')+'</div>';
+   sec.innerHTML='<div class="section-head"><div><h2>'+s.name+'</h2><div class="en">'+s.en+'</div></div></div><div class="grid">'+items.map(x=>'<div class="card"><img class="thumb" src="'+photoMap[i]+'.jpg" onerror="this.onerror=null;this.src='images/'+photoMap[i]+'.jpg'" alt=""><div class="cardbody"><div class="item">'+x.name+'</div><div class="price">'+x.price+'<br><small>تومان</small></div></div></div>').join('')+'</div>';
    main.appendChild(sec);
  });
  no.style.display=found?'none':'block';
